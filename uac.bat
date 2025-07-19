@@ -14,4 +14,4 @@ cscript //nologo "%temp%\msgbox.vbs"
 del "%temp%\msgbox.vbs"
 
 :: Restart
-shutdown /r /t 5 /c "Restarting to apply changes..."
+shutdown /r /t 3 /c "Restarting "

